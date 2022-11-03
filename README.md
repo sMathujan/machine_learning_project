@@ -97,3 +97,8 @@ docker stop <container_id>
 ```
 python setup.py install
 ```
+
+Install ipykernal
+```
+pip install ipykernal  or  pip install jupyter
+```
