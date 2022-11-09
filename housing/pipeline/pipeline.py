@@ -9,7 +9,7 @@ import os, sys
 
 class Pipeline:
 
-    def __init__(self, config:Configuration = Configuration()) -> None:
+    def __init__(self, config: Configuration = Configuration()) -> None:
         try:
             self.config = config
 
