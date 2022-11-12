@@ -102,3 +102,7 @@ Install ipykernal
 ```
 pip install ipykernal  or  pip install jupyter
 ```
+
+
+Data Drift:
+When your dataset stats gets change we call it as data drift
