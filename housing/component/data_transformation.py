@@ -182,7 +182,7 @@ class DataTransformation:
 
             test_df = load_data(file_path=test_file_path, schema_file_path=schema_file_path)
 
-            schema = read_yaml_file(schema_file_path=schema_file_path)
+            schema = read_yaml_file(file_path=schema_file_path)
 
             target_column_name = schema[TARGET_COLUMN_KEY]
 
@@ -231,3 +231,7 @@ class DataTransformation:
 
         except Exception as e:
             raise HousingException(e, sys) from e
+
+
+    def __del__(self):
+        logging.info(f"{'='*20}Data Transformation log completed.{'='*20} \n\n")

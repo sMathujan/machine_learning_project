@@ -3,7 +3,7 @@ from housing.exception import HousingException
 import os, sys
 import numpy as np
 import dill
-import numpy as pd
+import pandas as pd
 from housing.constant import *
 
 def read_yaml_file(file_path:str) -> dict:
